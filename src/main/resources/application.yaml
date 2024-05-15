@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: springboot
+  datasource:
+    username: postgres
+    password: '&B&8hr'
+    url: jdbc:postgresql://localhost:8080/products-api
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lab:
+            non_contextual_creation: true
