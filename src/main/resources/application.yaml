@@ -4,12 +4,12 @@ spring:
   datasource:
     username: postgres
     password: '&B&8hr'
-    url: jdbc:postgresql://localhost:8080/products-api
+    url: jdbc:postgresql://localhost/products-api
   jpa:
     hibernate:
       ddl-auto: update
     properties:
       hibernate:
         jdbc:
-          lab:
+          lob:
             non_contextual_creation: true
